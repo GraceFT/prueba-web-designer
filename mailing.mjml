@@ -1,6 +1,13 @@
 <mjml>
+<mj-head>
+    <mj-attributes>
+      <mj-text padding="0" />
+      <mj-class name="blue" color="blue" />
+      <mj-class name="big" font-size="20px" />
+      <mj-all font-family="Roboto" />
+    </mj-attributes>
+  </mj-head>
   <mj-body>
-
     <!-- Company Header -->
     <mj-section background-color="#FFFFFF">
         <mj-column>
@@ -10,10 +17,36 @@
     </mj-section>
     
     <!-- Image Header -->
-    <mj-section background-url ="https://github.com/GraceFT/prueba-web-designer/blob/master/sources/images/paseos_naturales.jpg?raw=true">
-    <mj-column>
-         
+    <mj-section background-color="#FFFFFF">
+        <mj-column>
+             <mj-text  align="center"
+                padding-top="0px" 
+                padding="150px 20px"
+                color="#ff7200"
+                font-size="40px"
+                font-weight="bold"
+                >¿Listo para viajar a donde quieras?</mj-text>
         </mj-column>
+    </mj-section>
+    <mj-section background-color="#FFFFFF">
+        <mj-column>
+             <mj-image width="200px"
+              src="https://github.com/GraceFT/prueba-web-designer/blob/master/sources/images/buggies.jpg?raw=true" />
+        </mj-column>
+    </mj-section>
+    <mj-section background-url="https://github.com/SolangeSalvatierra/prueba-web-designer/blob/developer/sources/img-new/11172.jpg?raw=true" vertical-align="middle" background-size="cover" padding="30px" background-repeat="no-repeat">
+      <mj-column vertical-align="middle" width="60%">
+        <mj-text align="center" padding="40px 30px" color="#FFFFFF" font-size="42px" line-height="48px" font-family="Alice, Helvetica, Arial, sans-serif"> hola</mj-text>
+      </mj-column>
+      <mj-column vertical-align="middle" width="40%" background-color="#FFFFFF">
+        <mj-image src="http://nimus.de/share/tpl-realestate/box-top.png" width="220px" alt="" align="center" border="none"></mj-image>
+        <mj-text align="center" padding="20px 20px 0 20px" color="#1D83A8" font-size="16px" line-height="25px" font-family="Poppins, Helvetica, Arial, sans-serif"> <strong> COMPARTE TU PASIÓN POR EL VIAJE  </strong>   </mj-text>
+        <mj-text align="center" padding="10px 20px" font-size="18px" line-height="20px"><strong> y gana el 10% </strong> </mj-text>
+        <mj-text align="center" padding="0 20px">
+          Invita uno de tus amig@ a comprar en Turismoi, cada vez que den tu correo al realizar una compra. GANARAS! el 10% del monto de la compra.
+          </mj-text>
+        <mj-button background-color="#F44E3C" color="white" padding="20px 20px 30px 20px" border-radius="20px">Invita</mj-button>
+      </mj-column>
     </mj-section>
     
     <!-- Introduction Text -->
