@@ -20,25 +20,44 @@
     <!-- Image Header -->
     <mj-section background-color="#FFFFFF">
         <mj-column>
+            <mj-text align="center" font-size="35px" color="#1E3E4C">HOLA #Nombre </mj-text>
              <mj-text  align="center"
                 color="#ff7200"
                 font-size="35px"
                 font-weight="bold"
+                padding="15px 0"
                 >¿Listo para viajar a donde quieras?</mj-text>
-                <mj-text align="center" padding="10px 0" font-size="15px">Descubre esta nueva oferta y comparte tu pasión por el viaje</mj-text>
         </mj-column>
     </mj-section>
-    <mj-section background-color="#ffffff" padding= 0>
+    <mj-section background-color="#ffffff">
         <mj-column>
-             <mj-image
-              src="https://github.com/GraceFT/prueba-web-designer/blob/master/sources/images/paseos_naturales?raw=true" />
+             <mj-image 
+              src="https://github.com/GraceFT/prueba-web-designer/blob/master/sources/images/paseos_naturales.jpg?raw=true" />
         </mj-column>
-
     </mj-section>
+    <mj-section padding="25px" background-color="#1E3E4C">
+        <mj-column border="#ff7200 dashed">
+            <mj-text align="center" padding="8px 0" font-size="20px" line-height="30px" color="#f9f9f9" >Comienza a referir a tus amigos y gana hasta el <u>10% del monto de tu compra</u>!</mj-text>
+        </mj-column>
+    </mj-section>
+    <mj-section background-color="#fafafa" >
+        <mj-column width="50%">
+            <mj-text align="left" font-size="35px" color="#ff7200" >hola </mj-text>
+        </mj-column>
+        <mj-column width="50%">
+            <mj-text align="left" font-size="35px" color="#ff7200" >jhola </mj-text>
+        </mj-column>
+    </mj-section>
+    <!-- Introduction Text -->
+    <mj-section background-color="#fafafa">
+        <mj-column >
+            <mj-text align="left" font-size="35px" color="#ff7200" > </mj-text>
+        </mj-column>
+    </mj-section>
+
+
 
     
-    <!-- Introduction Text -->
-    <mj-section background-color="#fafafa"></mj-section>
 
     <!-- 2 columns section -->
     <mj-section background-color="white"></mj-section>
