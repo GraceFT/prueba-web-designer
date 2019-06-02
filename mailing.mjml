@@ -18,7 +18,7 @@
     <mj-divider border-color="#F45E43" width="290px"></mj-divider>
     
     <!-- Image Header -->
-    <mj-section background-color="#FFFFFF">
+    <mj-section background-color="#ffffff">
         <mj-column>
             <mj-text align="center" font-size="35px" color="#1E3E4C">HOLA #Nombre </mj-text>
              <mj-text  align="center"
@@ -29,9 +29,9 @@
                 >¿Listo para viajar a donde quieras?</mj-text>
         </mj-column>
     </mj-section>
-    <mj-section background-color="#ffffff">
+    <mj-section background-color="#fafafa">
         <mj-column>
-             <mj-image 
+             <mj-image border-radius="5px" 
               src="https://github.com/GraceFT/prueba-web-designer/blob/master/sources/images/paseos_naturales.jpg?raw=true" />
         </mj-column>
     </mj-section>
@@ -41,17 +41,32 @@
         </mj-column>
     </mj-section>
     <mj-section background-color="#fafafa" >
-        <mj-column width="50%">
-            <mj-text align="left" font-size="35px" color="#ff7200" >hola </mj-text>
+        <mj-column width="50%" padding="30px">
+            <mj-text align="left" font-size="25px" color="#1E3E4C" font-weight="700" padding-bottom="15px">
+                EN LA COMPRA
+             </mj-text>
+            <mj-text align="left" font-size="15px" color="#1E3E4C" >
+                Cuando tu amigo haga la compra debe ingresar <strong>tu correo  en los comentarios de su compra.</strong>
+             </mj-text>
         </mj-column>
         <mj-column width="50%">
-            <mj-text align="left" font-size="35px" color="#ff7200" >jhola </mj-text>
+             <mj-image border-radius="5px" width="150px"
+              src="https://github.com/GraceFT/prueba-web-designer/blob/master/sources/images/friend.jpg?raw=true" />
         </mj-column>
     </mj-section>
     <!-- Introduction Text -->
-    <mj-section background-color="#fafafa">
-        <mj-column >
-            <mj-text align="left" font-size="35px" color="#ff7200" > </mj-text>
+    <mj-section background-color="#ffffff" >
+        <mj-column width="50%">
+             <mj-image border-radius="5px" width="150px"
+              src="https://github.com/GraceFT/prueba-web-designer/blob/master/sources/images/friend.jpg?raw=true" />
+        </mj-column>
+        <mj-column width="50%" padding="30px">
+            <mj-text align="left" font-size="25px" color="#1E3E4C" font-weight="700" padding-bottom="15px">
+                ES IMPORTANTE
+             </mj-text>
+            <mj-text align="left" font-size="15px" color="#1E3E4C" >
+                Qe tu referido no haya hecho compras en Turismoi.pe y sea un  <strong> nuevo cliente </strong>
+             </mj-text>
         </mj-column>
     </mj-section>
 
