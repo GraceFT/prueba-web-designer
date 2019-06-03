@@ -89,6 +89,7 @@
     </mj-section>
     <!--SOCIAL MEDIA-->
     <mj-section background-color="#f5f5f5" padding="5px">
+    <mj-group>
        <mj-column>
         <mj-image src="http://turismoi.org/turismoipe/icon-facebook.png" href="https://www.facebook.com/Turismoi.pe" width="30px" ></mj-image>
       </mj-column>
@@ -110,6 +111,7 @@
       <mj-column>
         <mj-image src="http://turismoi.org/turismoipe/icon-apple.png" href="https://itunes.apple.com/pe/app/turismoi.pe/id1033366145?mt=8" width="30px" ></mj-image>
       </mj-column>
+      </mj-group>
     </mj-section>
     <!--FOOTER-->
     <mj-section background-color="#f5f5f5" padding="5px 15px">
