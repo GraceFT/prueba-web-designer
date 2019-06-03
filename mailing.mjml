@@ -18,42 +18,43 @@
     <mj-divider border-color="#F45E43" width="290px"></mj-divider>
     
     <!-- Image Header -->
-    <mj-section background-color="#ffffff">
-        <mj-column>
-            <mj-text align="center" font-size="28px" color="#1E3E4C">Hola <strong>#Nombre </strong></mj-text>
+    <mj-section background-color="#fafafa" padding="15px">
+        <mj-column padding="0">
+            <mj-text align="center" font-size="28px" color="#1E3E4C">Hola <strong>Grace</strong></mj-text>
              <mj-text  align="center"
                 color="#ff7200"
-                font-size="35px"
+                font-size="30px"
                 font-weight="bold"
                 padding="15px 0"
-                >¿Listo para viajar a donde más desees?</mj-text>
+                >¿List@ para viajar a donde más desees?</mj-text>
         </mj-column>
     </mj-section>
     <mj-section background-color="#fafafa" padding="0">
-        <mj-column>
-             <mj-image border-radius="5px" 
+        <mj-column padding="0">
+             <mj-image  padding="0"
               src="https://github.com/GraceFT/prueba-web-designer/blob/master/sources/images/paseos_naturales.jpg?raw=true" />
         </mj-column>
     </mj-section>
-    <mj-section padding="25px" background-color="#1E3E4C">
-        <mj-column border="#ff7200 dashed">
-            <mj-text align="center" padding="8px 0" font-size="20px" line-height="30px" color="#f9f9f9" font-weight="300">Comienza a referir a tus amigos y gana hasta el <strong>10% del monto de tu compra</strong>!</mj-text>
+    <mj-section padding="15px" background-color="#1E3E4C">
+        <mj-column border=" 1.5px #ff7200 dashed">
+            <mj-text align="center" padding="8px 0" font-size="16px" line-height="30px" color="#f9f9f9" font-weight="300">Comienza a referir a tus amigos y gana hasta el </br> <strong>10% del monto de tu compra</strong>!</mj-text>
         </mj-column>
     </mj-section>
     <!--STEPS-->
-    <mj-section background-color="#fafafa" >
-        <mj-column width="50%" padding="15px 20px">
-            <mj-text align="left" font-size="20px" color="#1E3E4C" font-weight="700" padding-bottom="15px">
+    <mj-section background-color="#fafafa" padding="0">
+        <mj-group>
+        <mj-column  padding="15px 20px"  border-right="1px solid #aaaaaa">
+            <mj-text  align="left" font-size="17px" color="#1E3E4C" font-weight="700" padding-bottom="15px">
                 EN LA COMPRA
              </mj-text>
             <mj-text align="left" font-size="15px" color="#1E3E4C" >
-                Tu amigo deberá ingresar <strong>tu correo  en los comentarios, al momento de su compra.</strong>
+                Tu amigo deberá ingresar <strong>tu correo  en los comentarios al momento de su compra.</strong>
              </mj-text>
-             <mj-image border-radius="5px" width="50px" padding="10px 0"
+             <mj-image  width="50px" padding="10px 0"
               src="https://github.com/GraceFT/prueba-web-designer/blob/master/sources/images/sent.png?raw=true" />
         </mj-column>
-        <mj-column width="50%" padding="15px 20px">
-              <mj-text align="justify" font-size="20px" color="#1E3E4C" font-weight="700" padding-bottom="15px">
+        <mj-column padding="15px 20px" >
+              <mj-text align="justify" font-size="17px" color="#1E3E4C" font-weight="700" padding-bottom="15px">
                 ES IMPORTANTE
              </mj-text>
             <mj-text align="justify" font-size="15px" color="#1E3E4C" >
@@ -62,16 +63,23 @@
              <mj-image border-radius="5px" width="50px"
               src="https://github.com/GraceFT/prueba-web-designer/blob/master/sources/images/ads.png?raw=true" />
         </mj-column>
+        </mj-group>
     </mj-section>
-    <mj-section background-color="#ffffff" padding="15px" >
-        <mj-column >
-             <mj-text  font-size="18px" color="#000000" align="center" font-family="Lato">
-                Puedes referir a la cantidad de contactos que desees, tus comisiones se acumularán.
-        </mj-colum>
+    <!-- Referir Text -->
+    <mj-section  background-url="https://github.com/GraceFT/prueba-web-designer/blob/master/sources/images/Component.png?raw=true" 
+        padding="15px" background-size="cover"
+        background-repeat="no-repeat">
+        <mj-group>
+            <mj-column padding="80px"></mj-column>
+            <mj-column padding="25px 10px"  border-radius="2px" vertical-align="middle">
+                <mj-text  font-size="12px" color="#ffffff" align="center" line-height="20px"> Puedes referir a la cantidad de contactos que desees, tus comisiones se acumularán.</mj-text>
+                <mj-button padding="1px" background-color="#F45E43" font-size="10px">REFERIR</mj-button>
+            </mj-colum>
+        </mj-group>
     </mj-section>
-    <!-- Introduction Text -->
+    <!-- Turismo Text -->
     <mj-section background-color="#fafafa" >
-        <mj-column width="35%">
+        <mj-column width="35%" vertical-align="middle">
             <mj-image  width="120px" align="center"
               src="https://github.com/GraceFT/prueba-web-designer/blob/master/sources/logos-turismoi/turismoi.png?raw=true" />
         </mj-column>
@@ -81,48 +89,55 @@
              </mj-text>
         </mj-column>
     </mj-section>
-    <mj-section background-color="#ff7200" >
-        <mj-column padding="10px">
+    <mj-section background-color="#F45E43" >
+        <mj-column padding="8px 10px">
               <mj-text align="center" font-size="15px" color="#ffffff" line-height="17px" font-weight="300">
                 En caso de que una de las partes tenga dudas sobre la promoción puede comunicarse con <strong>ventas@turismoi.pe o por nuestro chat en linea. </strong></mj-text>
         </mj-column>
     </mj-section>
+    <mj-divider border-color="#F45E43" width="290px"></mj-divider>
+    <mj-raw>
+      <!-- Icons -->
+    </mj-raw>
     <!--SOCIAL MEDIA-->
-    <mj-section background-color="#f5f5f5" padding="5px">
-    <mj-group>
-       <mj-column>
-        <mj-image src="http://turismoi.org/turismoipe/icon-facebook.png" href="https://www.facebook.com/Turismoi.pe" width="30px" ></mj-image>
-      </mj-column>
-      <mj-column>
-        <mj-image src="http://turismoi.org/turismoipe/icon-twitter.png" href="http://www.twitter.com/turismoipe" width="30px" ></mj-image>
-      </mj-column>
-      <mj-column>
-        <mj-image src="http://turismoi.org/turismoipe/icon-linkedin.png" href="https://www.linkedin.com/company/3746649?trk=tyah&trkInfo=tarId%3A1404231976960%2Ctas%3Aturismoi%2Cidx%3A1-1-1" alt="ins" width="30px" ></mj-image>
-      </mj-column>
-      <mj-column >
-        <mj-image src="http://turismoi.org/turismoipe/icon-youtube.png" href="https://www.youtube.com/user/TurismoiOrg" width="30px"></mj-image>
-      </mj-column>
-      <mj-column>
-        <mj-image src="http://turismoi.org/turismoipe/icon-blog.png" href="http://blog.turismoi.org/" width="30px" ></mj-image>
-      </mj-column>
-      <mj-column>
-        <mj-image src="http://turismoi.org/turismoipe/icon-android.png" href="https://play.google.com/store/apps/details?id=m.turismoi.pe" width="30px" ></mj-image>
-      </mj-column>
-      <mj-column>
-        <mj-image src="http://turismoi.org/turismoipe/icon-apple.png" href="https://itunes.apple.com/pe/app/turismoi.pe/id1033366145?mt=8" width="30px" ></mj-image>
-      </mj-column>
+    <mj-section background-color="#1E3E4C">
+        <mj-group>
+            <mj-column>
+                <mj-image width="35px" padding="0"  src="http://turismoi.org/turismoipe/icon-facebook.png"></mj-image>
+            </mj-column>
+            <mj-column>
+                <mj-image width="35px" padding="0"  src="http://turismoi.org/turismoipe/icon-twitter.png"></mj-image>
+            </mj-column>
+            <mj-column>
+                <mj-image width="35px" padding="0"  src="http://turismoi.org/turismoipe/icon-linkedin.png"></mj-image>
+            </mj-column>
+            <mj-column>
+                <mj-image width="35px" padding="0"  src="http://turismoi.org/turismoipe/icon-youtube.png"></mj-image>
+            </mj-column>
+            <mj-column>
+                <mj-image width="35px" padding="0"  src="http://turismoi.org/turismoipe/icon-blog.png"></mj-image>
+            </mj-column>
+            <mj-column>
+                <mj-image width="35px" padding="0"  src="http://turismoi.org/turismoipe/icon-android.png"></mj-image>
+            </mj-column>
+            <mj-column>
+                <mj-image width="35px" padding="0"  src="http://turismoi.org/turismoipe/icon-apple.png"></mj-image>
+            </mj-column>
       </mj-group>
     </mj-section>
+    <mj-raw>
+      <!-- Icons -->
+    </mj-raw>
     <!--FOOTER-->
-    <mj-section background-color="#f5f5f5" padding="5px 15px">
+    <mj-section background-color="#1E3E4C" padding="5px 15px">
         <mj-column >
-              <mj-text align="left" font-size="10px" color="#000" line-height="17px" font-weight="300">
-               Enviado por: Turismoi.pe S.A.C Atención al Cliente / Dirección: Av. Armendariz 234 - Oficina 202, Miraflores, Lima - Perú / Teléfono: 320-4315 / E-mail: informes@turismoi.pe
-                </mj-text>
-                <mj-text align="left" font-size="10px" color="#000" line-height="17px" font-weight="300">
-                Aviso Legal: *El presente correo electrónico se envía conforme a lo dispuesto en la Ley N° 28494, modificada por Ley N° 29246 y el D.S. 031-05-MTC - Ley Antispam Peruana y su Reglamento. En caso ya no desee recibir esta clase de comunicaciones, por favor envíe un correo electrónico a informes@turismoi.pe con el asunto “Solicitud de baja”. Mediante esta solicitud usted será dado de baja del portal Turismoi.pe y de todos los servicios que tenga activos con nosotros. Su remoción de nuestra base de datos será tramitada en un máximo de 48 horas.
-                Copyright © 2016 Turismoi.pe. Todos los derechos reservados.
-                </mj-text>
+              <mj-text align="left" font-size="10px" color="#fbfbfb" line-height="17px" font-weight="300">
+               Enviado por: Turismoi.pe S.A.C Atención al Cliente / Dirección: Av. La Mar 662 - Oficina 206, Miraflores, Lima - Perú / Teléfono: 693-9458 
+                Aviso Legal: *El presente correo electrónico se envía conforme a lo dispuesto en la Ley N° 28494, modificada por Ley N° 29246 y el D.S. 031-05-MTC - Ley Antispam Peruana y su Reglamento. En caso ya no desee recibir esta clase de comunicaciones, por favor utilice el enlace inferior para desuscribirse.
+            </mj-text>
+            <mj-text align="left" font-size="10px" color="#fbfbfb" line-height="17px" font-weight="300">
+                Copyright © 2018 Turismoi.pe. Todos los derechos reservados.
+             </mj-text>
         </mj-column>
     </mj-section>
   </mj-body>
